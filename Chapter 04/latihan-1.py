@@ -15,9 +15,9 @@ mulaiJamSewa = 6
 akhirJamSewa = 23
 totalWaktuSewa = (akhirJamSewa - mulaiJamSewa) + ((akhirMenitSewa-mulaiMenitSewa)/60)
 print("Rincian Waktu Sewa")
-print("Jam mulai sewa: ",mulaiJamSewa,"\b.",mulaiMenitSewa)
-print("Jam akhir sewa: ",akhirJamSewa,"\b.",akhirMenitSewa)
-print("Total waktu sewa: ",totalWaktuSewa," jam")
+print("Jam mulai sewa: %d.%d" %(mulaiJamSewa,mulaiMenitSewa))
+print("Jam akhir sewa: %d.%d" %(akhirJamSewa,akhirMenitSewa))
+print("Total waktu sewa: %d jam" %(totalWaktuSewa))
 print("=============================================")
 
 ## KALKULASI BIAYA
@@ -27,6 +27,6 @@ waktuSewaBerikutnya = totalWaktuSewa - waktuSewaPertama
 biayaSewaPertama = 200000
 biayaSewaBerikutnya = tarifSewaBerikutnya * math.floor(waktuSewaBerikutnya)
 biayaTotal = biayaSewaPertama + biayaSewaBerikutnya
-print("Biaya sewa pertama:",biayaSewaPertama)
-print("Biaya sewa",totalWaktuSewa,"jam:",biayaSewaBerikutnya)
-print("Total biaya yang harus dibayarkan:",biayaTotal)
+print("Biaya sewa pertama: %d" %(biayaSewaPertama))
+print("Biaya sewa %d jam: %d" %(totalWaktuSewa,biayaSewaBerikutnya))
+print("Total biaya yang harus dibayarkan: %d" %(biayaTotal))
