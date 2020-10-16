@@ -37,6 +37,14 @@ print("Int",operasiAritmatika,"Flo:",type(bilInteger1-bilFloat2))
 print("Flo",operasiAritmatika,"Int:",type(bilFloat1-bilInteger2))
 print("Flo",operasiAritmatika,"Flo:",type(bilFloat1-bilFloat2),"\n")
 
+## PERKALIAN
+print("Perkalian")
+operasiAritmatika = "*"
+print("Int",operasiAritmatika,"Int:",type(bilInteger1*bilInteger2))
+print("Int",operasiAritmatika,"Flo:",type(bilInteger1*bilFloat2))
+print("Flo",operasiAritmatika,"Int:",type(bilFloat1*bilInteger2))
+print("Flo",operasiAritmatika,"Flo:",type(bilFloat1*bilFloat2),"\n")
+
 ## PEMBAGIAN
 print("Pembagian")
 operasiAritmatika = "+"
