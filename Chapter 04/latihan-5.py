@@ -7,5 +7,5 @@ grafikMahasiswa = countMahasiswa // 10
 grafikMahasiswi = countMahasiswi // 10
 
 #TAMPILKAN OUTPUT
-print("Laki-laki: ",('*'*grafikMahasiswa))
-print("Perempuan: ",('*'*grafikMahasiswi))
+print("Laki-laki: ",('*'*grafikMahasiswa),"(%d)"%(countMahasiswa))
+print("Perempuan: ",('*'*grafikMahasiswi),"(%d)"%(countMahasiswi))
