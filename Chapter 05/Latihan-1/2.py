@@ -10,9 +10,9 @@ lulusBahasaIndonesia = False
 lulusMatematika = False
 lulusIlmuNaturalSains = False
 
-if(nilaiBahasaIndonesia>60):
+if(nilaiBahasaIndonesia>=60):
     lulusBahasaIndonesia = True
-if(nilaiIlmuNaturalSains>60):
+if(nilaiIlmuNaturalSains>=60):
     lulusIlmuNaturalSains = True
 if(nilaiMatematika>70):
     lulusMatematika = True
