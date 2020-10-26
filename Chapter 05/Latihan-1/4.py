@@ -20,7 +20,7 @@ else:
     exit()
 
 # HITUNG POTONGAN
-hitungPotongan = gajiPokok * (potongan/100)
+hitungPotongan = gajiKotor * (potongan/100)
 
 #TAMPILKAN HASIL
 print("====================================\n STRUK RINCIAN GAJI KARYAWAN \n-----------------------------------------------------------")
