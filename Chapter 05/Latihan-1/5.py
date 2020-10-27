@@ -1,5 +1,5 @@
 # TERIMA INPUT
-kodeKaryawan = int(input("Masukkan Kode Karyawan     : "))
+kodeKaryawan = str(input("Masukkan Kode Karyawan     : "))
 namaKaryawan = str(input("Masukkan Nama Karyawan     : "))
 golonganKaryawan = str(input("Masukkan Golongan          : "))
 inputsudahMenikah = int(input("Masukkan status (1:menikah, 2:blm): "))
@@ -41,7 +41,7 @@ if(sudahMenikah):
 else:
     gajiKotor = gajiPokok
 
-hitungPotongan = gajiPokok * (potongan/100)
+hitungPotongan = gajiKotor * (potongan/100)
 
 #TAMPILKAN HASIL
 print("====================================\n STRUK RINCIAN GAJI KARYAWAN \n-----------------------------------------------------------")
