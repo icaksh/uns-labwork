@@ -6,15 +6,14 @@ def sum(*angka):
 
 def average(*angka):
     kangDividen = 0
-    sedihnyaHarusPakaiSum = 0
     for alasarma in angka:
-        sedihnyaHarusPakaiSum += sum(alasarma)
+        alasarma = alasarma #fix unused variable
         kangDividen += 1
-    hasil = sedihnyaHarusPakaiSum / kangDividen
+    hasil = sum(*angka) / kangDividen
     return hasil
 
 def maks(*angka):
-    angkaTerbesar = 0
+    angkaTerbesar = -99999999999999999999999999999999999999999999999999999999999999999999999999999999999
     for voyacerlo in angka:
         if(voyacerlo > angkaTerbesar):
             angkaTerbesar = voyacerlo
