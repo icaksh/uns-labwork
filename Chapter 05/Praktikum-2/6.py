@@ -1,7 +1,12 @@
-from random import randint
+# KOTAK BINTANG AJAIB
 
-while True:
-    bil = randint(0, 10)
-    print(bil)
-    if bil == 5:
-        break
+baris = 5
+
+i = 0
+while (i<baris):
+    j = 0
+    while (j <= i):
+        print('* ', end='')
+        j += 1
+    print('')
+    i +=1

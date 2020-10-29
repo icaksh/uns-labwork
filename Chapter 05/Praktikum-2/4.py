@@ -1,13 +1,7 @@
-# KOTAK BINTANG AJAIN
-
-kolom = 5
-baris = 5
-
+banyakPerulangan = 10
 i = 0
-while (i<baris):
-    j = 0
-    while (j < kolom):
-        print('* ', end='')
-        j += 1
-    print('')
-    i +=1
+while True:
+    print('Hello World')
+    i += 1
+    if (i >= banyakPerulangan):
+        break

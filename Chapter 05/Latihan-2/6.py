@@ -17,3 +17,5 @@ while skorMula != 0:
     elif(angkaTebakan < angkaYangHarusDitebak):
         print("Maaf, bilangan tebakan anda terlalu kecil")
         skorMula -= 2
+else:
+    print("Skor anda 0 :(")
