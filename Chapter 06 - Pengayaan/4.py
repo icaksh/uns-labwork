@@ -1,4 +1,5 @@
 def bin2Dec(n):
+    n = int(n)
     i = desimal = 0
     while (n!=0):
         sisa = n % 10
@@ -7,4 +8,4 @@ def bin2Dec(n):
         i += 1
     return desimal
 
-print(bin2Dec(100000000000000000000000000000000))
+print(bin2Dec('100000000000000000000000000000000'))
