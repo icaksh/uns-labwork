@@ -24,8 +24,8 @@ print(a)
 print(b)
 
 print("\nBuatlah list c yang elemennya merupakan sublist dari a (mulai dari indeks ke 0 s/d 7), dan list d yang elemennya merupakan sublist dari b (mulai indeks ke 2 s/d 9)")
-c = a[0:7]
-d = b[2:9]
+c = a[0:8]
+d = b[2:10]
 print(c)
 print(d)
 
