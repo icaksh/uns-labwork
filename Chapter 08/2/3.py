@@ -1,4 +1,12 @@
-totalInput = int(input("Ingin memasukkan berapa nama?: "))
+while True:
+    try:
+        totalInput = int(input("Ingin memasukkan berapa nama?: "))
+        break
+    except:
+        print("Mohon masukkan hanya angka")
+        continue
+    else:
+        exit()
 print("{0} nama akan diinputkan".format(totalInput))
 
 listNama= []

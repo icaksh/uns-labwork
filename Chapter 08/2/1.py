@@ -1,10 +1,26 @@
 import random 
-totalInput = int(input("Ingin memasukkan berapa bilangan?: "))
+while True:
+    try:
+        totalInput = int(input("Ingin memasukkan berapa bilangan?: "))
+        break
+    except:
+        print("Mohon masukkan angka")
+        continue
+    else:
+        exit()
 print("{0} bilangan akan diinputkan".format(totalInput))
 
 listBilangan = []
 while (totalInput > 0):
-    dataTambah = int(input("Masukkan bilangan bulat: "))
+    while True:
+        try:
+            dataTambah = int(input("Masukkan bilangan bulat: "))
+            break
+        except:
+            print("Mohon masukkan angka")
+            continue
+        else:
+            exit()
     listBilangan = listBilangan + [dataTambah]
     x = None
     while x != 1:
