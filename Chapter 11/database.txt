@@ -1,0 +1,4 @@
+M01|Alice|Buku Suharto|2020-12-20|2020-12-07
+M02|Bob|Buku Suharto Seri 2|2020-12-29|2021-01-05
+M03|Acer|Laptop Acer|2021-01-01|2021-01-08
+M04|Jokowi|Buku Statistik Indonesia|2021-01-01|2021-01-08
