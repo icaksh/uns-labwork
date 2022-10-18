@@ -1,0 +1,16 @@
+Nama    : Palguno Wicaksono
+NIM     : K3520060
+
+Menurut saya, untuk menentukan versi PHP yang tepat pada 
+suatu aplikasi berbasis web adalah Versi PHP yang digunakan 
+merupakan versi yang stabil, karena seringkali versi rolling 
+release membuat script yang lama bisa error jika dijalankan 
+di versi PHP yang baru karena beberapa module dapat saja 
+dihapuskan di versi PHP terbaru. Adapun untuk selanjutnya, yaitu
+menggunakan versi PHP yang major updatenya menambah securitas
+sehingga sesuai dengan perkembangan zaman
+
+Misalnya untuk saat ini alangkah baiknya menggunakan versi PHP 7.4
+karena PHP 5.6 sudah dapat dikatakan outdate, akan tetapi belum
+direkomendasikan menggunakan PHP 8 karena versi tersebut baru rilis
+sehingga ditakutkan masih terdapat bug pada PHP 8
