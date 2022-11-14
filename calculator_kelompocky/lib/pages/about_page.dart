@@ -62,7 +62,7 @@ class _AboutPageState extends State<AboutPage> {
                     color: activeCardColor,
                     cardChild: IconCard(
                       cardIcon: FontAwesomeIcons.userCowboy,
-                      caption: 'ZAINURI SEPTIAN WAHYU ANGGORO',
+                      caption: 'ZAINURI SEPTIAN WAHYU ANGGORO (K3520082)',
                     ),
                   ),
                 ),
